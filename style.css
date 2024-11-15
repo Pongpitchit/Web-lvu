@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  button.next-page-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+  }
+  
+  button.next-page-btn:hover {
+    background-color: #45a049;
+  }
+    canvas {
+        position: absolute;
+        z-index: 1;
+      }
+      
+      button {
+        position: absolute;
+        z-index: 10;
+      }
+      
